@@ -24,12 +24,12 @@ const object = {
 
 ### Install
 ```
-npm install bits
+npm install bits.js
 ```
 
 ### Define a Layout
 ```js
-var bits = require('bits');
+var bits = require('bits.js');
 var BigInteger = require('big-integer'); // to enable platforms not supporting native BigInt
 
 var layout = [
