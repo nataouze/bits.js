@@ -1,5 +1,5 @@
 {
-  "name": "bits",
+  "name": "bits.js",
   "version": "0.1.0",
   "description": "Conveniently encode and decode arbitrary-length binary data in BigIntegers",
   "main": "src/index.js",
