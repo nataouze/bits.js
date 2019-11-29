@@ -1,10 +1,9 @@
 # bits.js:
 
 Conveniently encode and decode arbitrary-length binary data in BigIntegers.
-This can be useful to compress data for storage optimisation. For example, storing data is expensive on Ethereum and one may want to tightly data in 256 bits chunks.
+This can be useful to compress data for storage optimisation. For example, storing data on blockchain can be expensive and one may want to pack data tightly.
 
-Examples:
-- Store data related to a network request, on 128 bits
+Example: encoding data related to a network request, on 128 bits:
 ```js
 var layout = [
     {name: "reqid", bits: 32}, // 0-31
