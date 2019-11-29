@@ -1,0 +1,22 @@
+{
+  "name": "bits",
+  "version": "0.1.0",
+  "description": "Conveniently encode and decode arbitrary-length binary data in BigIntegers",
+  "main": "src/index.js",
+  "directories": {
+    "test": "mocha"
+  },
+  "scripts": {
+    "start": "node example.js",
+    "test": "./node_modules/.bin/_mocha -- test/*.test.js"
+  },
+  "author": "sala.nathan@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "big-integer": "^1.6.48"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2"
+  }
+}
