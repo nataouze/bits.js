@@ -8,15 +8,25 @@
   },
   "scripts": {
     "start": "node example.js",
-    "test": "./node_modules/.bin/_mocha -- test/*.test.js"
+    "test": "./node_modules/.bin/_mocha -- test/*.test.js",
+    "minify": "uglifyjs src/bits.js -o bits.min.js"
   },
-  "author": "sala.nathan@gmail.com",
+  "author": "Nathan Sala <sala.nathan@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "big-integer": "^1.6.48"
   },
   "devDependencies": {
     "chai": "^4.2.0",
-    "mocha": "^6.2.2"
+    "mocha": "^6.2.2",
+    "uglify-js": "^3.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nataouze/bits.js.git"
+  },
+  "homepage": "https://github.com/nataouze/bits.js",
+  "bugs": {
+    "url": "https://github.com/nataouze/bits.js/issues"
   }
 }
